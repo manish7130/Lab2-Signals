@@ -3,6 +3,6 @@ signals: signal.c
 	
 timer: timer.c
 	gcc timer.c -o timer
-		
+				
 clear: signals timer
 	rm signals timer
